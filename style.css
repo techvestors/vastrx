@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&family=Source+Code+Pro:wght@700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  /* font-family: 'Source Code Pro', monospace; */
+  background: var(--darkBlue);
+}
+:root {
+  --blue: #1f2937;
+  --darkBlue: #040c0e;
+  --green: #10b981;
+}
+
+.header {
+  display: flex;
+  width: 800px;
+}
+
+.hero-header .hero {
+  float: left;
+  padding: 150px;
+  color: var(--green);
+  font-weight: 800;
+  font-size: 110px;
+  padding-bottom:0px ;
+  margin-bottom: 20px;
+}
+button{
+    border: 0px;
+    background: var(--blue);
+    border-radius: 6px;
+    color: var(--green);
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+button:hover{
+    background: var(--green);
+    color: var(--blue);
+    transition: .5s;
+    box-shadow: .5 --green;
+}
+
+img {
+  margin-top: 75px;
+  margin-left: 250px;
+  height: 700px;
+  width: 700px;
+}
+
+.content{
+    color: white;
+    font-size: 25px;
+    display: block;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.instagram{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    float:right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.instagram:hover{
+  color: var(--green);
+  transition: .6s;
+}
+.content a{
+  text-decoration: none;
+  color: var(--green);
+}
