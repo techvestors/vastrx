@@ -40,6 +40,13 @@ button{
     margin-left: 150px;
     margin-bottom: 50px;
 }
+button a{
+  text-decoration: none;
+  color: var(--green);
+}
+/* button .btn-a:hover{
+  color: white;
+} */
 button:hover{
     background: var(--green);
     color: var(--blue);
