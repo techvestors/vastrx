@@ -1,0 +1,64 @@
+:root {
+  --blue: #1f2937;
+  --darkBlue: #040c0e;
+  --green: #10b981;
+}
+.container {
+  grid-template-columns: auto minmax(100px, 1fr);
+  grid-template-rows: 100px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: var(--darkBlue);
+    overflow-x: hidden;
+  }
+  .header{
+      display:list-item;
+  }
+  .instagram {
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .header-img{
+      padding:10px;
+  }
+  .header-img img {
+    /* display: block; */
+    width: 600px;
+    height: 600px;
+    margin-right: 100px;
+  }
+  .hero-header {
+    width: auto;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: var(--darkBlue);
+    }
+    .instagram {
+      float: left;
+      margin-top: 40px;
+      margin-left: 40px;
+    }
+    .header-img {
+      display: block;
+    }
+  }
+
+
+
+@media only screen and (max-width: 1280px){
+    body{
+        overflow-x: hidden;
+    }
+    .instagram {
+        float: left;
+        margin-top: 40px;
+        margin-left: 40px;
+      }
+}
